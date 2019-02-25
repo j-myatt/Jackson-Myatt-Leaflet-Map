@@ -17,6 +17,17 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 }).addTo(map);
 
 
+var geojsonMarkerOptions = {
+    radius: 8,
+    fillColor: "#ff7800",
+    color: "#000",
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.8
+};
+
+
+
 //Step 2: Import GeoJSON data
 function getData(map){
    //load the data
@@ -33,6 +44,8 @@ function getData(map){
 getData(map);
 
 
+
+
 //load the data...Example 2.3 line 22
 $.ajax("data/MC_AZ.json", {
         dataType: "json",
@@ -46,6 +59,8 @@ $.ajax("data/MC_AZ.json", {
         }).addTo(map);
     }
 })
+
+
 
 /*
 //calculate the radius of each proportional symbol
@@ -61,13 +76,17 @@ function calcPropRadius(attValue) {
 };
 */
 
-
 /*
+var tearDrop = new L.Icon({iconUrl: "css/marker-icon.png"});
+
 function cactus(feature, layer) {
     layer.bindPopUp("<h1>Hi, I am a pop-up!</h1>");
     layer.setIcon(tearDrop);
 }
+*/
 
+
+/*
 function featurePopUp(feature, layer) {
     // does this feature have a property named popupContent?
     if (feature.properties && feature.properties.popupContent) {
@@ -76,16 +95,6 @@ function featurePopUp(feature, layer) {
 }
 
 var attribute = "Pop2000"
-
-
-var geojsonMarkerOptions = {
-    radius: 8,
-    fillColor: "#ff7800",
-    color: "#000",
-    weight: 1,
-    opacity: 1,
-    fillOpacity: 0.8
-};
 */
 
 
@@ -108,13 +117,8 @@ var geojsonMarkerOptions = {
 
 
 
-
-// var tearDrop = new L.Icon({iconUrl: "img/marker-icon.png"});
-
-
-
 /*
-L.geoJSON("js/MaricopaCounty.js/maricopa", {
+L.geoJSON("data/MC_AZ.json", {
     
     onEachFeature: cactus
     
@@ -123,4 +127,4 @@ L.geoJSON("js/MaricopaCounty.js/maricopa", {
 
 // mcLayer.addData("js/MaricopaCounty.js/maricopa");
 
-$(document).ready(createMap);
+$(document).ready(Map);
