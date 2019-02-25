@@ -1,0 +1,605 @@
+var maricopa = {
+  "type" : "FeatureCollection",
+  "crs" : {
+    "type" : "name",
+    "properties" : {
+      "name" : "EPSG:4326"
+    }
+  },
+  "features" : [
+    {
+      "type" : "Feature",
+      "id" : 0,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.54612,
+          33.423139999999997
+        ]
+      },
+      "properties" : {
+        "FID" : 0,
+        "City" : "Apache Junction",
+        "State" : "AZ",
+        "Lon" : -111.54612,
+        "Lat" : 33.423139999999997,
+        "Year" : 1950,
+        "Pop1950" : 0,
+        "Pop1960" : 0,
+        "Pop1970" : 3863,
+        "Pop1980" : 9935,
+        "Pop1990" : 18382,
+        "Pop2000" : 31771,
+        "Pop2010" : 35840,
+        "Pop2016" : 39984
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 1,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.34966,
+          33.4405
+        ]
+      },
+      "properties" : {
+        "FID" : 1,
+        "City" : "Avondale",
+        "State" : "AZ",
+        "Lon" : -112.34966,
+        "Lat" : 33.4405,
+        "Year" : 1950,
+        "Pop1950" : 2505,
+        "Pop1960" : 6151,
+        "Pop1970" : 6626,
+        "Pop1980" : 8168,
+        "Pop1990" : 17489,
+        "Pop2000" : 36075,
+        "Pop2010" : 76238,
+        "Pop2016" : 82881
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 2,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.59010000000001,
+          33.370489999999997
+        ]
+      },
+      "properties" : {
+        "FID" : 2,
+        "City" : "Buckeye",
+        "State" : "AZ",
+        "Lon" : -112.59010000000001,
+        "Lat" : 33.370489999999997,
+        "Year" : 1950,
+        "Pop1950" : 1932,
+        "Pop1960" : 2286,
+        "Pop1970" : 2599,
+        "Pop1980" : 3434,
+        "Pop1990" : 5055,
+        "Pop2000" : 8121,
+        "Pop2010" : 50876,
+        "Pop2016" : 69947
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 3,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.9551,
+          33.82808
+        ]
+      },
+      "properties" : {
+        "FID" : 3,
+        "City" : "Cave Creek",
+        "State" : "AZ",
+        "Lon" : -111.9551,
+        "Lat" : 33.82808,
+        "Year" : 1950,
+        "Pop1950" : 0,
+        "Pop1960" : 0,
+        "Pop1970" : 0,
+        "Pop1980" : 1712,
+        "Pop1990" : 2419,
+        "Pop2000" : 3915,
+        "Pop2010" : 5015,
+        "Pop2016" : 5476
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 4,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.84083,
+          33.303379999999997
+        ]
+      },
+      "properties" : {
+        "FID" : 4,
+        "City" : "Chandler",
+        "State" : "AZ",
+        "Lon" : -111.84083,
+        "Lat" : 33.303379999999997,
+        "Year" : 1950,
+        "Pop1950" : 3799,
+        "Pop1960" : 9531,
+        "Pop1970" : 13763,
+        "Pop1980" : 29673,
+        "Pop1990" : 90703,
+        "Pop2000" : 176240,
+        "Pop2010" : 236123,
+        "Pop2016" : 247477
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 5,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.32258,
+          33.615279999999998
+        ]
+      },
+      "properties" : {
+        "FID" : 5,
+        "City" : "El Mirage",
+        "State" : "AZ",
+        "Lon" : -112.32258,
+        "Lat" : 33.615279999999998,
+        "Year" : 1950,
+        "Pop1950" : 0,
+        "Pop1960" : 1723,
+        "Pop1970" : 3258,
+        "Pop1980" : 4307,
+        "Pop1990" : 5016,
+        "Pop2000" : 7637,
+        "Pop2010" : 31797,
+        "Pop2016" : 35043
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 6,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.72123999999999,
+          33.605020000000003
+        ]
+      },
+      "properties" : {
+        "FID" : 6,
+        "City" : "Fountain Hills",
+        "State" : "AZ",
+        "Lon" : -111.72123999999999,
+        "Lat" : 33.605020000000003,
+        "Year" : 1950,
+        "Pop1950" : 0,
+        "Pop1960" : 0,
+        "Pop1970" : 0,
+        "Pop1980" : 2771,
+        "Pop1990" : 10030,
+        "Pop2000" : 20237,
+        "Pop2010" : 22489,
+        "Pop2016" : 24482
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 7,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.78997,
+          33.329799999999999
+        ]
+      },
+      "properties" : {
+        "FID" : 7,
+        "City" : "Gilbert",
+        "State" : "AZ",
+        "Lon" : -111.78997,
+        "Lat" : 33.329799999999999,
+        "Year" : 1950,
+        "Pop1950" : 1114,
+        "Pop1960" : 1833,
+        "Pop1970" : 1971,
+        "Pop1980" : 5717,
+        "Pop1990" : 30003,
+        "Pop2000" : 114567,
+        "Pop2010" : 208453,
+        "Pop2016" : 237133
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 8,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.18626999999999,
+          33.538609999999998
+        ]
+      },
+      "properties" : {
+        "FID" : 8,
+        "City" : "Glendale",
+        "State" : "AZ",
+        "Lon" : -112.18626999999999,
+        "Lat" : 33.538609999999998,
+        "Year" : 1950,
+        "Pop1950" : 8179,
+        "Pop1960" : 15893,
+        "Pop1970" : 36228,
+        "Pop1980" : 91172,
+        "Pop1990" : 150867,
+        "Pop2000" : 219721,
+        "Pop2010" : 226721,
+        "Pop2016" : 245895
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 9,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.35831,
+          33.436300000000003
+        ]
+      },
+      "properties" : {
+        "FID" : 9,
+        "City" : "Goodyear",
+        "State" : "AZ",
+        "Lon" : -112.35831,
+        "Lat" : 33.436300000000003,
+        "Year" : 1950,
+        "Pop1950" : 1254,
+        "Pop1960" : 1654,
+        "Pop1970" : 2140,
+        "Pop1980" : 2747,
+        "Pop1990" : 6215,
+        "Pop2000" : 18666,
+        "Pop2010" : 65275,
+        "Pop2016" : 77258
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 10,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.96313000000001,
+          33.364879999999999
+        ]
+      },
+      "properties" : {
+        "FID" : 10,
+        "City" : "Guadalupe",
+        "State" : "AZ",
+        "Lon" : -111.96313000000001,
+        "Lat" : 33.364879999999999,
+        "Year" : 1950,
+        "Pop1950" : 0,
+        "Pop1960" : 0,
+        "Pop1970" : 4039,
+        "Pop1980" : 4506,
+        "Pop1990" : 5509,
+        "Pop2000" : 5230,
+        "Pop2010" : 5523,
+        "Pop2016" : 6336
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 11,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.36087999999999,
+          33.493450000000003
+        ]
+      },
+      "properties" : {
+        "FID" : 11,
+        "City" : "Litchfield Park",
+        "State" : "AZ",
+        "Lon" : -112.36087999999999,
+        "Lat" : 33.493450000000003,
+        "Year" : 1950,
+        "Pop1950" : 0,
+        "Pop1960" : 0,
+        "Pop1970" : 1664,
+        "Pop1980" : 3657,
+        "Pop1990" : 3298,
+        "Pop2000" : 3812,
+        "Pop2010" : 5476,
+        "Pop2016" : 5766
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 12,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.83146000000001,
+          33.41704
+        ]
+      },
+      "properties" : {
+        "FID" : 12,
+        "City" : "Mesa",
+        "State" : "AZ",
+        "Lon" : -111.83146000000001,
+        "Lat" : 33.41704,
+        "Year" : 1950,
+        "Pop1950" : 16790,
+        "Pop1960" : 33772,
+        "Pop1970" : 63049,
+        "Pop1980" : 152404,
+        "Pop1990" : 290212,
+        "Pop2000" : 397503,
+        "Pop2010" : 439041,
+        "Pop2016" : 484587
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 13,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.94033,
+          33.531140000000001
+        ]
+      },
+      "properties" : {
+        "FID" : 13,
+        "City" : "Paradise Valley",
+        "State" : "AZ",
+        "Lon" : -111.94033,
+        "Lat" : 33.531140000000001,
+        "Year" : 1950,
+        "Pop1950" : 0,
+        "Pop1960" : 0,
+        "Pop1970" : 6637,
+        "Pop1980" : 11085,
+        "Pop1990" : 12038,
+        "Pop2000" : 13556,
+        "Pop2010" : 12820,
+        "Pop2016" : 14355
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 14,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.2409,
+          33.577309999999997
+        ]
+      },
+      "properties" : {
+        "FID" : 14,
+        "City" : "Peoria",
+        "State" : "AZ",
+        "Lon" : -112.2409,
+        "Lat" : 33.577309999999997,
+        "Year" : 1950,
+        "Pop1950" : 2033,
+        "Pop1960" : 2593,
+        "Pop1970" : 4792,
+        "Pop1980" : 12171,
+        "Pop1990" : 51154,
+        "Pop2000" : 109123,
+        "Pop2010" : 154065,
+        "Pop2016" : 164173
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 15,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.072754,
+          33.442770000000003
+        ]
+      },
+      "properties" : {
+        "FID" : 15,
+        "City" : "Phoenix",
+        "State" : "AZ",
+        "Lon" : -112.072754,
+        "Lat" : 33.442770000000003,
+        "Year" : 1950,
+        "Pop1950" : 106818,
+        "Pop1960" : 439170,
+        "Pop1970" : 581562,
+        "Pop1980" : 789704,
+        "Pop1990" : 988983,
+        "Pop2000" : 1323107,
+        "Pop2010" : 1445632,
+        "Pop2016" : 1626078
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 16,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.63451999999999,
+          33.244669999999999
+        ]
+      },
+      "properties" : {
+        "FID" : 16,
+        "City" : "Queen Creek",
+        "State" : "AZ",
+        "Lon" : -111.63451999999999,
+        "Lat" : 33.244669999999999,
+        "Year" : 1950,
+        "Pop1950" : 0,
+        "Pop1960" : 0,
+        "Pop1970" : 0,
+        "Pop1980" : 1378,
+        "Pop1990" : 2639,
+        "Pop2000" : 3713,
+        "Pop2010" : 26361,
+        "Pop2016" : 35524
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 17,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.92068999999999,
+          33.494
+        ]
+      },
+      "properties" : {
+        "FID" : 17,
+        "City" : "Scottsdale",
+        "State" : "AZ",
+        "Lon" : -111.92068999999999,
+        "Lat" : 33.494,
+        "Year" : 1950,
+        "Pop1950" : 2032,
+        "Pop1960" : 10026,
+        "Pop1970" : 67823,
+        "Pop1980" : 88622,
+        "Pop1990" : 130086,
+        "Pop2000" : 202715,
+        "Pop2010" : 217385,
+        "Pop2016" : 246645
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 18,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.36676,
+          33.623719999999999
+        ]
+      },
+      "properties" : {
+        "FID" : 18,
+        "City" : "Surprise",
+        "State" : "AZ",
+        "Lon" : -112.36676,
+        "Lat" : 33.623719999999999,
+        "Year" : 1950,
+        "Pop1950" : 0,
+        "Pop1960" : 0,
+        "Pop1970" : 2427,
+        "Pop1980" : 3723,
+        "Pop1990" : 7182,
+        "Pop2000" : 31038,
+        "Pop2010" : 117517,
+        "Pop2016" : 132677
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 19,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -111.93724,
+          33.425510000000003
+        ]
+      },
+      "properties" : {
+        "FID" : 19,
+        "City" : "Tempe",
+        "State" : "AZ",
+        "Lon" : -111.93724,
+        "Lat" : 33.425510000000003,
+        "Year" : 1950,
+        "Pop1950" : 7684,
+        "Pop1960" : 24897,
+        "Pop1970" : 63550,
+        "Pop1980" : 106919,
+        "Pop1990" : 142056,
+        "Pop2000" : 158555,
+        "Pop2010" : 161719,
+        "Pop2016" : 182498
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 20,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.26384,
+          33.450310000000002
+        ]
+      },
+      "properties" : {
+        "FID" : 20,
+        "City" : "Tolleson",
+        "State" : "AZ",
+        "Lon" : -112.26384,
+        "Lat" : 33.450310000000002,
+        "Year" : 1950,
+        "Pop1950" : 3042,
+        "Pop1960" : 3886,
+        "Pop1970" : 3881,
+        "Pop1980" : 4433,
+        "Pop1990" : 4483,
+        "Pop2000" : 4981,
+        "Pop2010" : 6545,
+        "Pop2016" : 7178
+      }
+    },
+    {
+      "type" : "Feature",
+      "id" : 21,
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -112.3009,
+          33.59404
+        ]
+      },
+      "properties" : {
+        "FID" : 21,
+        "City" : "Youngtown",
+        "State" : "AZ",
+        "Lon" : -112.3009,
+        "Lat" : 33.59404,
+        "Year" : 1950,
+        "Pop1950" : 0,
+        "Pop1960" : 0,
+        "Pop1970" : 1886,
+        "Pop1980" : 2254,
+        "Pop1990" : 2540,
+        "Pop2000" : 3012,
+        "Pop2010" : 6156,
+        "Pop2016" : 6759
+      }
+    }
+  ]
+};
