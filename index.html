@@ -3,14 +3,16 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-        <title>Leaflet GeoJSON Map</title>
+        <title>Maricopa County Population Leaflet Map</title>
 		<!--put your external stylesheet links here-->
 		<link href="css/leaflet.css" type="text/css" rel="stylesheet">
         <link href="css/style.css" type="text/css" rel="stylesheet">
-        <script type="text/javascript" src="js/leaflet-src.js"></script>
+        <script type="text/javascript" src="lib/leaflet-src.js"></script>
 		<!--[if IE<9]>
 			<link rel="stylesheet" href="css/style.ie.css">
 		<![endif]-->
+        <!-- Since this map is unfortunately static, this is the title -->
+        <h1 class="header">Maricopa County Cities and Population, 2010</h1>
 	</head>
 
 	<body>
@@ -21,10 +23,14 @@
         
 		<!--put your external script links here-->
         <div id="map"></div>
+        <div id="panel"></div>
         
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/leaflet.js"></script>
+        <!-- reference scripts -->
+        <script type="text/javascript" src="lib/jquery.js"></script>
+        <script type="text/javascript" src="lib/leaflet.js"></script>
         <script type="text/javascript" src="js/MaricopaCounty.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
+        <script type="application/javascript" src="js/leaflet-search.src.js"></script>
+        <script src="css/leaflet-search.css"></script>
 	</body>
 </html>
